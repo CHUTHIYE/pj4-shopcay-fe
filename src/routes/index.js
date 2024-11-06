@@ -13,6 +13,8 @@ import OrderDetail from "../pages/order/detail";
 import OrderUser from "../pages/home/order";
 import Rent from "../pages/home/rent";
 import Cart from "../pages/home/cart";
+import About from "../pages/home/about";
+import Contact from "../pages/home/contact";
 
 const routes = [
   {
@@ -77,7 +79,14 @@ const routes = [
     path: "/admin/order/:id",
     Component: OrderDetail,
     Layout: AdminLayout,
+  },{
+    path: "/contact",
+    Component: Contact,
   },
+  {
+    path: "/about",
+    Component: About,
+  }
 ];
 
 export default routes;

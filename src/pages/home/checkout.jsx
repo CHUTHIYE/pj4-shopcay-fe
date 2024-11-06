@@ -126,7 +126,7 @@ const Checkout = () => {
 
   return (
     <PayPalScriptProvider
-      options={{ "client-id": "AcPdgKnnK8mHmih0k_1bL-o8L0JdiBJbwWrC4WZ9VIFxKTIpORV0nBpDtmqbNcx3pBI6p9R_BjVxLgaV" }}
+      options={{ "client-id": "ARHEIQTdNml1kHsEMqGuRyBI2-To8dhPmKz0mRVEawilccHChB4OD6KKAAs4YV9iQ1BJNVKX0oWeAbKj" }}
     >
       <div
         style={{

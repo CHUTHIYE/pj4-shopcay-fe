@@ -56,6 +56,7 @@ const Header = () => {
     >
       <div
         style={{
+          
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
@@ -64,7 +65,9 @@ const Header = () => {
         }}
       >
         <div>
-          <h1 style={{ margin: 0, color: "#fff" }}>Logo</h1>
+          <img  style={{
+          width: "50px", height:"50px"
+        }} src="../logo.png" alt="" />
         </div>
         <nav>
           <ul style={{ display: "flex", listStyle: "none", padding: 0, margin: 0 }}>
@@ -205,6 +208,16 @@ const Header = () => {
                 <MenuItem onClick={handleClose}>
                   <Link to="/orders" style={{ textDecoration: "none", color: "#000" }}>
                     My Orders
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <Link to="/contact" style={{ textDecoration: "none", color: "#000" }}>
+                    contact
+                  </Link>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <Link to="/about" style={{ textDecoration: "none", color: "#000" }}>
+                    about
                   </Link>
                 </MenuItem>
                 <MenuItem onClick={handleLogout}>
